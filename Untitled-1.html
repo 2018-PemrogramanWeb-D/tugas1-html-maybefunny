@@ -4,29 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Pweb D 1st task</title>
 </head>
 <body>
-    <a href="http://google.com">google</a>
-    <div>
-        <table>
-            <tr>
-                <th>Nama</th>
-                <th>NRP</th>
-                <th>Alamat</th>
-            </tr>
-            <tr>
-                <td>Darfi Sultoni</td>
-                <td>05111740000063</td>
-                <td>Jl. Gebang Wetan</td>
-            </tr>
-        </table>
-    </div>
-    <img src="http://thebananapolice.com/wp-content/uploads/2012/11/banana.jpg" alt="pisang">
-    <form action="" method="post">
-        <input type="text" name="name" id="name" placeholder="Nama">
-        <input type="email" name="email" id="email" placeholder="E-Mail">
-        <input type="button" value="submit">
-    </form>
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">NRP</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td><a href="http://thebananapolice.com/wp-content/uploads/2012/11/banana.jpg">Darfi</a></td>
+            <td>Sultoni</td>
+            <td>0063</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td><a href="http://thebananapolice.com/wp-content/uploads/2012/11/banana.jpg">Jacob</a></td>
+            <td>Thornton</td>
+            <td>007</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td><a href="http://thebananapolice.com/wp-content/uploads/2012/11/banana.jpg">Larry</a></td>
+            <td>the snail</td>
+            <td>666</td>
+          </tr>
+        </tbody>
+      </table>
+    <img src="http://thebananapolice.com/wp-content/uploads/2012/11/banana.jpg" class="img-fluid" alt="pisang">
+    <form>
+        <div class="form-group">
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email address">
+        </div>
+        <div class="form-group">
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
 </body>
 </html>
